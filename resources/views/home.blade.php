@@ -33,7 +33,7 @@
                     <a href="{{ route('sinhvien') }}">Đường dẫn tới thông tin sinh viên mặc định </a>
                 </div>
                 <div class="bg-gray-300 rounded-lg p-3 text-black text-lg hover:text-blue-500 ">
-                    <a href="{{ route('sinhvien','Nguyễn Việt Quang', 0313767) }}">Đường dẫn tới thông tin sinh viên làm bài</a>
+                    <a href="{{ route('sinhvien',['Nguyễn Việt Quang', '0313767']) }}">Đường dẫn tới thông tin sinh viên làm bài</a>
                 </div>
                 <div class="bg-gray-300 rounded-lg p-3 text-black text-lg hover:text-blue-500 ">
                     <a href="{{ route('banco',5) }}">Đường dẫn tới trang bàn cờ 5x5 </a>
